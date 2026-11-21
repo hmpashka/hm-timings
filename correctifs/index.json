@@ -2,21 +2,23 @@
  "correctifs": [
   {
    "version": 142,
-   "n": 3,
+   "n": 4,
    "canal": "test",
-   "fichier": "142-n3.zip",
-   "taille": 3200275,
-   "sha256": "3004d4313c0c19294ae33c9830b115ded5d0c840f15e905920f96117cbde3431",
-   "date": "2026-11-21 14:46",
+   "fichier": "142-n4.zip",
+   "taille": 3532203,
+   "sha256": "2a51b8ab4095897d505c118d0525402e9d3770046fa652ff1ff03da8a6a2f9f9",
+   "date": "2026-11-21 14:53",
    "notes": [
-    "Fiche speaker : toutes les infos du couple (Winjump et poste du jury), choix des infos affichées",
-    "Cavaliers à l'heure sur la fiche speaker et l'avancement du jury",
-    "Jury : corriger le résultat d'un couple déjà passé pendant qu'un autre est en piste (panneau « Corriger »)",
-    "Jury : saisir à la main le résultat d'un couple pas encore passé, sans le mettre à la porte"
+    "Fiche speaker : toutes les colonnes du fichier d'engagés (propriétaire, éleveur, coach…), chacune à cocher dans « Infos de la fiche »",
+    "Père, mère et père de mère repris du fichier d'engagés",
+    "Contient aussi les correctifs n°1 à 3"
    ],
    "base": "7fd1ce8",
-   "cible": "a117ce2",
+   "cible": "063c139",
    "fichiers": [
+    "competition/import_fei.cp312-win_amd64.pyd",
+    "competition/import_ffe.cp312-win_amd64.pyd",
+    "competition/import_winjump.cp312-win_amd64.pyd",
     "competition/jury.cp312-win_amd64.pyd",
     "serveur_ecrans.cp312-win_amd64.pyd",
     "web/ecran.js",
