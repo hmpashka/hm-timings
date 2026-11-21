@@ -2,20 +2,22 @@
  "correctifs": [
   {
    "version": 142,
-   "n": 8,
+   "n": 9,
    "canal": "test",
-   "fichier": "142-n8.zip",
-   "taille": 3552447,
-   "sha256": "b94f38036b0fecc07c4407180492e830cdcf4bfba90f125c3534f64293f04bfb",
-   "date": "2026-11-21 15:29",
+   "fichier": "142-n9.zip",
+   "taille": 3553723,
+   "sha256": "45d1cd46f395d3501e50798f08bc4aba5455a0f5f8656f9b3a24411b30056344",
+   "date": "2026-11-21 16:36",
    "notes": [
+    "Jury : fin estimée / fin prévue dans la barre d'avancement, en vert si on est en avance, en rouge si en retard",
+    "Jury : nombre de cavaliers à l'heure toujours affiché (compteurs de l'ordre de départ, épreuve terminée, onglet Horaires)",
     "Speaker et écran géant : badge « Hors classement / Hors concours » sur un couple HC (la fiche speaker dit de ne pas annoncer de rang)",
     "Jury : changer d'épreuve sur un poste qui ne tient pas le chrono ne change plus l'épreuve de la piste",
     "Jury, import des engagés : bouton « Mettre à jour seulement les fiches du speaker »",
-    "Contient aussi les correctifs n°1 à 7 (fiche speaker, corriger / saisir à la main / remettre à zéro un résultat)"
+    "Contient aussi les correctifs n°1 à 8 (fiche speaker, corriger / saisir à la main / remettre à zéro un résultat)"
    ],
    "base": "7fd1ce8",
-   "cible": "e72be1b",
+   "cible": "c4b1107",
    "fichiers": [
     "competition/import_fei.cp312-win_amd64.pyd",
     "competition/import_ffe.cp312-win_amd64.pyd",
