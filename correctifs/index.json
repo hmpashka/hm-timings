@@ -2,19 +2,20 @@
  "correctifs": [
   {
    "version": 142,
-   "n": 2,
+   "n": 3,
    "canal": "test",
-   "fichier": "142-n2.zip",
-   "taille": 3201255,
-   "sha256": "c2cad057255a895a2c86c0d2872c2f9063baf91b58157f9e4d74f6d3172d904b",
-   "date": "2026-11-21 14:29",
+   "fichier": "142-n3.zip",
+   "taille": 3200275,
+   "sha256": "3004d4313c0c19294ae33c9830b115ded5d0c840f15e905920f96117cbde3431",
+   "date": "2026-11-21 14:46",
    "notes": [
     "Fiche speaker : toutes les infos du couple (Winjump et poste du jury), choix des infos affichées",
     "Cavaliers à l'heure sur la fiche speaker et l'avancement du jury",
-    "Jury : corriger le résultat d'un couple déjà passé pendant qu'un autre est en piste (panneau « Corriger »)"
+    "Jury : corriger le résultat d'un couple déjà passé pendant qu'un autre est en piste (panneau « Corriger »)",
+    "Jury : saisir à la main le résultat d'un couple pas encore passé, sans le mettre à la porte"
    ],
    "base": "7fd1ce8",
-   "cible": "f7fde3f",
+   "cible": "a117ce2",
    "fichiers": [
     "competition/jury.cp312-win_amd64.pyd",
     "serveur_ecrans.cp312-win_amd64.pyd",
