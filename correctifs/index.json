@@ -2,19 +2,20 @@
  "correctifs": [
   {
    "version": 142,
-   "n": 4,
+   "n": 5,
    "canal": "test",
-   "fichier": "142-n4.zip",
-   "taille": 3532203,
-   "sha256": "2a51b8ab4095897d505c118d0525402e9d3770046fa652ff1ff03da8a6a2f9f9",
-   "date": "2026-11-21 14:53",
+   "fichier": "142-n5.zip",
+   "taille": 3531554,
+   "sha256": "54af107661605bdc91f5ed0244cc3a2148bb15a2a36fba2e52136263ca214227",
+   "date": "2026-11-21 14:57",
    "notes": [
     "Fiche speaker : toutes les colonnes du fichier d'engagés (propriétaire, éleveur, coach…), chacune à cocher dans « Infos de la fiche »",
     "Père, mère et père de mère repris du fichier d'engagés",
-    "Contient aussi les correctifs n°1 à 3"
+    "Contient aussi les correctifs n°1 à 4",
+    "Jury : remettre à zéro le résultat d'un couple (panneau « Corriger »)"
    ],
    "base": "7fd1ce8",
-   "cible": "063c139",
+   "cible": "12a4f70",
    "fichiers": [
     "competition/import_fei.cp312-win_amd64.pyd",
     "competition/import_ffe.cp312-win_amd64.pyd",
